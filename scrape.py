@@ -7,7 +7,6 @@ print("Webscraping - this takes about 15 seconds...")
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--incognito')
-options.add_argument('--headless')
 
 driver = webdriver.Chrome("chromedriver.exe", options=options)
 driver.get("https://www.iticket.co.nz/events/2021/aug/cs-get-degrease")
