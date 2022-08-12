@@ -13,13 +13,13 @@ while True:
     choice = int(input(">>> "))
 
     if choice == 1:
-        scrape_target = "https://www.iticket.co.nz/events/2021/aug/cs-get-degrease"
+        scrape_target = "https://www.iticket.co.nz/events/2022/aug/charlie-internship-lottery"
         break
     elif choice == 2:
-        scrape_target = "https://www.iticket.co.nz/events/2021/aug/med-sch-musical"
+        scrape_target = "https://www.iticket.co.nz/events/2022/aug/murmur-mia"
         break
     elif choice == 3:
-        scrape_target = "https://www.iticket.co.nz/events/2021/aug/nightmare-short-st"
+        scrape_target = "https://www.iticket.co.nz/events/2022/aug/wizard-of-lawz"
         break
     else:
         print("Whoops, try again")
